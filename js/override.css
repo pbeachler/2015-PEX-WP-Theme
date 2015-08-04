@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+    font:  14px/22px "Helvetica Neue", Calibri, Arial, Helvetica, Arial, sans-serif;
+}
+
+/*.fcalendar
+
+{
+width: 320px !important;
+height: 220px !important;
+margin: 30px 0 0 0!important;
+
+}*/
+#TS_Trip1 td.second
+{
+
+}
+
+#TS_Trip1 td.third
+{
+width: 450px !important;
+padding: 0 10px 0 10px !important;
+margin: 0 0 0 -20px !important;
+position: relative !important;
+
+
+
+}
+
+#TS_Trip1 td.times, #TS_Trip1 .pricing-types { padding:3px 0 3px 0; height: auto;}
+
+#TS_Trip1 .pricing-types div { height: auto;}
+
+
+.directionsBox ul, 
+.directionsBox li
+{
+
+list-style-type: none;
+margin: 0;
+padding: 0;
+
+}
+
+.directionsBox
+{
+width: 400px;
+margin: 0;
+padding: 0;
+text-align: left !important;
+}
+.directionsBox h2
+
+{
+ margin-bottom: 2px;
+}
+
+#TS_LoyaltyProgram, #TS_LoyaltyProgram input, .checkBoxLine{
+	text-align: left !important;
+	text-indent: none;
+	margin-left: 40px;
+}
+
+#TS_LoyaltyProgram {
+	border: 1px solid #fcfcfc;
+	width: 85%;
+}
+
+.checkBoxLine {
+	display: block;
+	width: 85% !important;
+	margin: 5px 5px 5px 0;
+	background: #fcfcfc;
+}
+
+.checkBoxLine input { 
+	width: 18px !important;
+	height: 18px  !important;
+	margin: 12px 3px -12px 12px !important;
+	background-image: none !important;
+	box-shadow: 0 0 2px 2px #cfcfcf !important;
+}
+
+.checkBoxLine label {
+	font-size: 15px !important;
+	color: #890000 !important;
+}
+.notAMember {
+	text-align: center;
+	font-size: 15px;
+	font-style: oblique;
+	background: #FFE8CE;
+	padding: 3px;
+}

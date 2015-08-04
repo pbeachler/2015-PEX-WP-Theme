@@ -1,0 +1,635 @@
+/*
+Theme Name: Official IPH Polar Theme
+Theme URI: https://github.com/pbeachler/2015-PEX-WP-Theme
+Description: Theme for THE POLAR EXPRESS Train Ride 2015
+Author: Phillip Beachler
+Version: v1.0.3
+Author URI: https://github.com/pbeachler
+Tags: polar express, basic template, responsive
+*/
+
+
+html, body
+{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+
+	font-family:Arial, Helvetica, sans-serif;
+	color: #5D7075;
+}
+
+/* =Structure
+----------------------------------------------- */
+
+
+header.mainHeader {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+header.mainHeader a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+header.mainHeader img { width: 950px; height: auto; }
+
+
+#content_frame {
+	width: 950px;
+	margin: 0 auto;
+	padding: 0px 0px 10px 0px;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+#primary {
+	float: left;
+	/*width: 100%;*/
+}
+
+.page-template-template-full-width-php #content {
+	margin: 0 15px;
+	width: 900px;
+}
+
+#content {
+	margin: 0 15px;
+	width: 620px;
+}
+
+#main .widget-area {
+	float: left;
+	overflow: hidden;
+	width: 20%;
+}
+
+.page-template-template-two-column-php #secondary, 
+.page-template-template-two-column-php #tertiary,
+.page-template-template-two-column-php #content {
+  width: 420px;
+  float: left;
+  margin: 20px 30px 0 15px;
+}
+
+#secondary, #tertiary {
+	margin: 20px 10px;
+}
+
+.site-footer {
+	clear: both;
+	width: 100%;
+	background: #666;
+}
+
+.legalNumber { margin-left: 25px;}
+
+#TS_Trip1 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+footer.footer {
+  clear: both;
+  width: 950px;
+  margin: 0 auto;
+  padding: 20px 0;
+  background: #666;
+
+  
+  
+}
+footer.footer * {
+  color: #fff;
+}
+
+
+#footernav
+{
+	width: 80%;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	text-align: center;
+	font:Verdana, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	color: #70ADC4;
+	font-size: 11px;
+	border-top: 1px solid #E1E1E1;
+	clear: both;
+}
+
+#homeVideo { width: 100%; height: 250px; border: none !important;}
+
+#top { height: 0; width: 0; margin: 0; padding: 0;}
+
+.toTop {display: none;}
+
+.toTop {
+  position: fixed; 
+  bottom: 20px; 
+  right: 40px;
+  height: 50px; 
+  width: 120px; 
+  background: #555; 
+  z-index: 100; 
+}
+.toTop  a { 
+	font-size: 18px; 
+	color: #fff; 
+	display: block; 
+	width: 100%; 
+	height: 100%; 
+	text-align: center; 
+	padding: 10px 0; 
+	text-decoration: none;
+}
+
+
+.directionsBox ul
+{
+    padding: 0;
+    margin: 15px;
+    list-style-type: none;
+}
+
+#polarsite a {
+	color:#ffffff;
+	font-weight:bold;
+	margin-bottom: 15px;
+}
+
+#navheader {
+	position: relative;	
+	width: 100% !important;
+	display: block;
+	height: auto;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+ul#menu-main-menu.menu
+{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0 !important;
+	list-style-type:none;    
+	text-indent: none !important;
+	text-align: center;	
+	overflow: hidden;
+	background: #fff;
+	border-bottom: 2px solid #C93;
+	border-top: 8px solid #C93;
+	box-shadow: 0px 2px 5px #888;
+	border-radius: 0px 0px 20px 20px;
+}
+
+ul#menu-main-menu.menu li
+{
+	height: auto;
+	width: 170px;
+	float: left;
+	list-style-type: none;
+	text-align: center;
+  margin-left: 10px;
+	padding: 0;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'EB Garamond', serif;
+	text-indent: 0 !important;
+}
+
+ul#menu-main-menu.menu li a
+{
+	text-decoration: none;
+	text-align: center;
+	height: 26px;
+	width: 100%;
+	padding: 8px;
+	text-transform: uppercase;
+	display: inline-block;
+	color: #5C7078;	
+	
+  background: #fff;
+}
+
+ul#menu-main-menu.menu li a:hover
+{
+	color: #fff;
+	background-color: #C93;
+
+	padding: 8px;
+}
+
+ #navheader img
+{
+	margin: 0;
+	border: 0;
+}
+
+#social-nav
+{
+	width: 100px;
+	height: 30px;
+	float: left;
+	margin: 70px 0 0 25px;
+}
+
+
+#social-nav img
+{
+	margin: 0 10px 0 0;
+}
+
+
+#footernav a
+{
+	color: #70ADC4;
+}
+
+.buy_btn
+{
+	position: absolute;
+	width: 210px;
+
+	height: 72px;
+	top: 75;
+	margin-left: 750px;
+
+}
+
+.buy_btn img
+{
+        border: none;
+}
+
+
+h1, h2, h3, h4, h5
+
+{
+	font-family: 'EB Garamond', serif;
+
+}
+
+h1, h2
+{
+	text-transform: uppercase;
+	font-weight: 100;
+	letter-spacing: .07em;
+}
+
+h1
+{
+	font-size: 26px;
+	color: #B1923A;
+
+}
+h2
+{
+	font-size: 22px;
+}
+
+
+h3
+{
+	font-size: 20px;
+}
+
+p
+{
+	font-size: 14px;
+	line-height: 1.5em;
+}
+
+
+ul
+{
+		margin: 5px 50px 5px 60px;
+	font-size: 11px;
+}
+
+/*calendar */
+
+
+.calct
+{
+	width: 400px;
+	float: left;
+	margin-left: 50px;
+}
+.calendar {	background-color: #F2F2F2;
+	color: #003366;
+	border: 0;
+	font-size: 12px;
+}
+.calendar td
+{
+	margin: 5px;
+		padding: 6px;
+
+}
+
+.calendar tr.day td
+{
+	padding: 2px;
+}
+
+.calendar tr
+{
+	margin-bottom: 15px;
+}
+.day {	background-color: #666666;
+	color: #FFFFFF;
+}
+
+.style2 {	font-size: 16px
+}
+.style2 {	font-size: 14px;
+	font-weight: bold;
+	color: #2294DC;
+}
+.style4 {	font-size: 12px;
+	color: #003366;
+}
+td.time {	height: 15px;
+	width: 15px;
+	border: none;
+}
+
+
+hr
+{
+	background-color:#C8A44F;
+	height: 1px;
+	noshade: noshade;
+	border: none;
+height: 2;
+clear: both;
+}
+
+table.prices
+{
+	float: left;
+	clear: both;
+	margin: 0 0 0 50px;
+}
+
+h1.pageheading
+{
+	text-align: center;
+	font-size: 30px !important;
+	border-top: 1px solid #C93;
+	border-bottom: 1px solid #C93;
+	width: 400px;
+	margin: 0 auto;
+}
+
+.prices td
+{
+	font-size: 12px;
+}
+h3.bold_red {
+	color: #FF0000;
+}
+
+.small_txt {
+	font-size: 10px;
+}
+
+
+@media (max-width: 870px)
+{
+
+    header.mainHeader {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    header.mainHeader img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+	display:block;
+    }
+    #primary, #content_frame, footer.footer {
+
+      width: 100%;
+      padding: 0px 0;
+      float: none;
+
+    }
+    #navheader {
+        width: 100%;
+    }
+ ul#menu-main-menu.menu { margin: 0px; width: 100%}
+ ul#menu-main-menu.menu li { margin: 0 auto; padding-top: 0; width: 20%;}
+  
+  
+#content, .content, 
+  .page-template-template-full-width-php #content, 
+  .page-template-template-two-column-php #secondary, 
+  .page-template-template-two-column-php #tertiary, 
+.page-template-template-two-column-php #content { 
+    width: 95%; padding: 0 !important;}
+  
+  
+}
+
+
+@media (max-width: 470px)
+{
+
+    header.mainHeader {
+        width: 100%;
+        height: auto;
+        margin: 0;
+      	padding: 0;
+    }
+
+   #primary, #content_frame, footer.footer {
+
+      	width: 100%;
+        margin: 0 !important; 
+      	padding: 0 !important;
+      float: none;
+    }
+
+	
+#content, .content,
+  .page-template-template-full-width-php #content, 
+  .page-template-template-two-column-php #secondary, 
+  .page-template-template-two-column-php #tertiary, 
+.page-template-template-two-column-php #content
+   { 
+    width: 92%; margin: 0px; padding: 10px !important;}
+  
+  
+  #navheader {
+        width: 100% !important;
+    }
+	h1 {font-size: 22px }
+	h2 { font-size: 18px}
+	h3 {font-size: 15px;}
+
+	p, ul, ol { font-size: 12px;}
+  
+  .toTop {
+    position: fixed; 
+    bottom: 0; 
+    right: 0;
+    height: 40px; 
+    width: 100%; 
+
+}
+
+  #content img {
+    width: 98%;
+    max-width:100%;
+    height:auto;
+    margin: 10px 0;
+    display:block ;
+    clear: both;
+    float: none;
+  }
+  
+
+
+	h3.ui-accordion-header {
+		margin: 0 !important;
+	}
+  
+#menu-main-menu	ul.menu { width: 100%;}
+ ul#menu-main-menu.menu li{
+        margin: 0;
+        width: 100%;
+        padding: 0;  
+    }
+ ul#menu-main-menu.menu li a
+        {
+          border-bottom:1px solid #fff; 
+          background: #C93;
+            color: #fff;
+        }
+  
+  ul#menu-main-menu.menu li a:hover { color: #C93; background: #fff;}
+  
+
+  #TS_Trip1 {
+    display: inline-block;
+    float: none !important;
+    max-width: 100%;
+    font-size: 11px !important;
+    clear: both;
+  }
+
+  #TS_Trip1-calendars { 
+    display: inline-block;
+    clear: both; 
+    width: 100%;
+  }
+  #TS_Trip1 table td {height: auto; padding: 20px 0 20px 0; font-size: 12px !important; text-wrap: auto;}
+#TS_Trip1 table tr:nth-child(3)
+{
+    margin-top: 10px;
+}
+
+#TS_Trip1 table tr:nth-child(3), #TS_Trip1 table tr:nth-child(4),#TS_Trip1 table tr:nth-child(5),#TS_Trip1 table tr:nth-child(6),#TS_Trip1 table tr:nth-child(7),#TS_Trip1 table tr:nth-child(8),#TS_Trip1 table tr:nth-child(9),#TS_Trip1 table tr:nth-child(10) {
+/*        width: 100%;
+        height: auto;    
+    display: block;
+    float: left;
+    clear: both;
+    font-size: 10px !important;*/
+}
+
+
+    #TS_Calendar {
+        position: absolute;
+        left: 0;
+        display: block;
+        width: 100%;
+    }
+  
+ 	.fcalendar-holder {
+  	width: 100% !important; 
+    float: none !imoprtant;
+    clear: both;
+    
+  }
+     .directionsBox {
+        display: block;
+        position: absolute;
+       width: 230px !important;
+        height: auto;
+        padding: 0;
+        padding: 0 !important;
+        left:0 !important;
+        margin-left: -120px !important;
+        margin-top: 250px !important;
+        text-align: left !important;
+        text-indent: 0 !important;
+        font-size: 10px !important;
+        line-height: 14px;
+        overflow: hidden;
+       display: none;
+}
+
+    .directionsBox::after
+{
+content:"<div style="clear: both;">&nbsp</div>";
+} 
+
+
+
+}
+
+
+.alignright { float: right; margin-left: 15px; margin-bottom: 10px; clear: right;}
+.alignleft { float: left; margin-right: 15px;  margin-bottom: 10px; clear: left;}
+img.aligncenter { display: block; margin: 0 auto;}
+.widget_text {font-size: 11px; text-align: center;}
+.imgBorder { border: 5px solid #fff;}
+#TS_Cart {width: 90% !important; display: block; margin: 0 auto;}
+
+/*--Jquery UI Overrides --*/
+.ui-icon
+{
+    float: left;
+    margin-right: 10px;
+}
+
+h3.ui-accordion-header
+{
+    padding: 8px;
+    background: #f5f5f5;
+    border-radius: 0;
+    border: 1px solid #cfcfcf;
+    cursor: pointer;
+	margin: 0 50px;
+}
+
+div.ui-accordion-content
+{
+    padding: 8px;
+}
+
+div.ui-accordion-content p
+{
+
+    line-height: 1.5em;
+}
+
