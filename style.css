@@ -633,3 +633,45 @@ div.ui-accordion-content p
     line-height: 1.5em;
 }
 
+
+/*--Custom Button Styles--*/
+a.linkButton {
+    display: inline-block;
+    position:relative;
+    padding: 2em;
+    background: #044d80 ;
+    color: #ffbd40;
+    text-decoration:none;
+    font-weight: 600;
+}
+
+a.linkButton:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index:1;
+    
+    background: -moz-radial-gradient(1em 1em, circle, white 1em, rgba(255,255,255,0) 1em) -1em -1em;
+    background: -webkit-radial-gradient(1em 1em, circle, white 1em, rgba(255,255,255,0) 1em) -1em -1em;
+    background: -ms-radial-gradient(1em 1em, circle, white 1em, rgba(255,255,255,0) 1em) -1em -1em;
+}
+
+a.linkButton:after {
+    content: '';
+    position:absolute;
+    top:.25em;
+    right:.25em;
+    bottom:.25em;
+    left:.25em;
+    outline: 1px #cc9933 solid;
+    outline-offset: -3px;
+    
+}
+a.linkButton:hover {
+	background: #CC9933;
+  color: #fff;
+	
+}
