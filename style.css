@@ -3,11 +3,10 @@ Theme Name: Official IPH Polar Theme - 2015
 Theme URI: https://github.com/pbeachler/2015-PEX-WP-Theme
 Description: Theme for THE POLAR EXPRESS Train Ride 2015
 Author: Phillip Beachler
-Version: v1.0.3
+Version: v1.0.4
 Author URI: https://github.com/pbeachler
 Tags: polar express, basic template, responsive
 */
-
 
 html, body
 {
@@ -19,8 +18,10 @@ html, body
 
 body {
 
+	
 	font-family:Arial, Helvetica, sans-serif;
 	color: #5D7075;
+
 }
 
 /* =Structure
@@ -128,6 +129,7 @@ footer.footer * {
 	font-size: 11px;
 	border-top: 1px solid #E1E1E1;
 	clear: both;
+	
 }
 
 #homeVideo { width: 100%; height: 250px; border: none !important;}
@@ -145,16 +147,7 @@ footer.footer * {
   background: #555; 
   z-index: 100; 
 }
-.toTop  a { 
-	font-size: 18px; 
-	color: #fff; 
-	display: block; 
-	width: 100%; 
-	height: 100%; 
-	text-align: center; 
-	padding: 10px 0; 
-	text-decoration: none;
-}
+.toTop  a { font-size: 18px; color: #fff; display: block; width: 100%; height: 100%; text-align: center; padding: 10px 0; text-decoration: none;}
 
 
 .directionsBox ul
@@ -164,19 +157,24 @@ footer.footer * {
     list-style-type: none;
 }
 
-#polarsite a {
+
+
+#polarsite a
+{
 	color:#ffffff;
 	font-weight:bold;
 	margin-bottom: 15px;
 }
 
-#navheader {
+#navheader
+{
 	position: relative;	
 	width: 100% !important;
 	display: block;
 	height: auto;
 	margin-bottom: 20px;
 	overflow: hidden;
+
 }
 
 ul#menu-main-menu.menu
@@ -189,11 +187,12 @@ ul#menu-main-menu.menu
 	text-indent: none !important;
 	text-align: center;	
 	overflow: hidden;
-	background: #fff;
-	border-bottom: 2px solid #C93;
+  background: #fff;
+  border-bottom: 2px solid #C93;
 	border-top: 8px solid #C93;
-	box-shadow: 0px 2px 5px #888;
-	border-radius: 0px 0px 20px 20px;
+  box-shadow: 0px 2px 5px #888;
+  border-radius: 0px 0px 20px 20px;
+
 }
 
 ul#menu-main-menu.menu li
@@ -263,6 +262,7 @@ ul#menu-main-menu.menu li a:hover
 {
 	position: absolute;
 	width: 210px;
+
 
 	height: 72px;
 	top: 75;
@@ -435,7 +435,7 @@ h3.bold_red {
     #navheader {
         width: 100%;
     }
- ul#menu-main-menu.menu { margin: 0px; width: 100%}
+ ul#menu-main-menu.menu { margin: 0px; width: 100%  }
  ul#menu-main-menu.menu li { margin: 0 auto; padding-top: 0; width: 20%;}
   
   
@@ -496,15 +496,12 @@ h3.bold_red {
 
 }
 
-  #content img {
-    width: 98%;
-    max-width:100%;
-    height:auto;
-    margin: 10px 0;
-    display:block ;
-    clear: both;
-    float: none;
-  }
+	#content img {
+		height: auto;
+		max-width: 100%; 
+		clear: both;
+		float: none;
+	}
   
 
 
@@ -512,86 +509,114 @@ h3.bold_red {
 		margin: 0 !important;
 	}
   
-#menu-main-menu	ul.menu { width: 100%;}
+	ul#menu-main-menu.menu { 
+		width: 100%; 
+		border-radius: 0 0 0 0 !important;
+	}
  ul#menu-main-menu.menu li{
-        margin: 0;
+        margin-bottom: 1px;
         width: 100%;
         padding: 0;  
+   			height: auto;
     }
- ul#menu-main-menu.menu li a
+ ul#menu-main-menu.menu li.menu-item a
         {
-          border-bottom:1px solid #fff; 
+          height: 100% !important;
+          width: 100% !important;
           background: #C93;
-            color: #fff;
+          line-height: 12px !important;
+          color: #fff;
         }
   
   ul#menu-main-menu.menu li a:hover { color: #C93; background: #fff;}
-  
 
-  #TS_Trip1 {
-    display: inline-block;
-    float: none !important;
-    max-width: 100%;
-    font-size: 11px !important;
-    clear: both;
+ 	#TS_Trip1 {
+	display: inline-block;
+	float: none !important;
+	width: 98%;
+	max-width: 98% !important;
+	clear: both;
+	overflow: visible !important;
   }
-
-  #TS_Trip1-calendars { 
-    display: inline-block;
-    clear: both; 
-    width: 100%;
-  }
-  #TS_Trip1 table td {height: auto; padding: 20px 0 20px 0; font-size: 12px !important; text-wrap: auto;}
-#TS_Trip1 table tr:nth-child(3)
-{
-    margin-top: 10px;
-}
-
-#TS_Trip1 table tr:nth-child(3), #TS_Trip1 table tr:nth-child(4),#TS_Trip1 table tr:nth-child(5),#TS_Trip1 table tr:nth-child(6),#TS_Trip1 table tr:nth-child(7),#TS_Trip1 table tr:nth-child(8),#TS_Trip1 table tr:nth-child(9),#TS_Trip1 table tr:nth-child(10) {
-/*        width: 100%;
-        height: auto;    
-    display: block;
-    float: left;
-    clear: both;
-    font-size: 10px !important;*/
-}
-
-
-    #TS_Calendar {
-        position: absolute;
-        left: 0;
-        display: block;
-        width: 100%;
-    }
-  
- 	.fcalendar-holder {
-  	width: 100% !important; 
-    float: none !imoprtant;
-    clear: both;
     
-  }
+	#TS_Trip1 * {
+		font-weight: 600 !important;
+	
+	}
+	td.sale-units, td.times, td.pricing-types, td.checkout { width: 20% !important; }
+	
+	td.times a, td.times a.sold-out {
+    display: inline-block !important;
+    padding: 35px 4px 20px 4px;
+    width: 100% !important;
+    clear: both;
+    overflow: visible;
+    height: auto !important;
+	}
+	td.pricing-types {
+	}
+	td.checkout {
+		padding: 10px 20px;
+	}
+	.pricing-type-holder {  
+		width: 100% !important;
+		border-bottom: 1px solid #cfcfcf;
+		padding: 6px
+	}
+	#TS_Trip1-calendars, .turnstile-calendar { 
+		display: inline-block !important;
+		float: none !important;
+		clear: both !important; 
+		height: auto !important;
+		width: 98%;
+		max-width: 98%;
+		overflow: visible !important;
+	}
+	.fcalendar-holder {
+		display: inline-block;
+		height: 270px !important;
+		width: 100% !important; 
+		float: none !important;
+		clear: both !important;   
+	}
+
+	td.times a.available {
+		width: 100% !important; 
+		display: block;
+		clear: both;
+		font-size: 16px !important;
+	}
+      
+	#TS_Trip1 table td {height: auto; padding: 20px 0 20px 0; font-size: 12px !important; text-wrap: auto;}
+	#TS_Trip1 table tr:nth-child(3)
+	{
+		margin-top: 10px;
+	}
+	  
      .directionsBox {
-        display: block;
-        position: absolute;
-       width: 230px !important;
-        height: auto;
-        padding: 0;
-        padding: 0 !important;
-        left:0 !important;
-        margin-left: -120px !important;
-        margin-top: 250px !important;
-        text-align: left !important;
-        text-indent: 0 !important;
-        font-size: 10px !important;
-        line-height: 14px;
-        overflow: hidden;
-       display: none;
-}
+		display: block;
+		position: absolute;
+		width: 230px !important;
+		height: auto;
+		padding: 0;
+		padding: 0 !important;
+		left:0 !important;
+		margin-left: -120px !important;
+		margin-top: 250px !important;
+		text-align: left !important;
+		text-indent: 0 !important;
+		font-size: 10px !important;
+		line-height: 14px;
+		overflow: hidden;
+		display: none;
+    }
 
     .directionsBox::after
-{
-content:"<div style="clear: both;">&nbsp</div>";
-} 
+        {
+        content:"<div style="clear: both;">&nbsp</div>";
+        } 
+
+
 
 
 
@@ -632,7 +657,6 @@ div.ui-accordion-content p
 
     line-height: 1.5em;
 }
-
 
 /*--Custom Button Styles--*/
 a.linkButton {
